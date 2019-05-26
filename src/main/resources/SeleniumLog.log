@@ -1,0 +1,13 @@
+10:44:47,664  INFO devpinoyLogger:33 - Starts Testing
+10:44:50,428 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+10:44:50,453 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+10:44:50,457 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:80][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+10:44:50,493 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:80][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+10:44:50,497 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:80
+10:44:50,501 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/127.0.0.1:80
+10:44:51,502 DEBUG DefaultHttpClientConnectionOperator:160 - Connect to localhost/127.0.0.1:80 timed out. Connection will be retried using another IP address
+10:44:51,503 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/0:0:0:0:0:0:0:1:80
+10:44:52,505 DEBUG DefaultManagedHttpClientConnection:98 - http-outgoing-0: Shutdown connection
+10:44:52,505 DEBUG MainClientExec:128 - Connection discarded
+10:44:52,506 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:80][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+10:44:56,183  INFO devpinoyLogger:147 - Test Ends here

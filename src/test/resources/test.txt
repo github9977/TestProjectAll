@@ -1,0 +1,15 @@
+
+
+
+java -jar
+selenium-server-standalone-3.9.1.jar 
+-role webdriver -hub http://localhost:4444/
+grid/register -port 5555
+java -Dweb
+driver.chrome.driver=C:\Users\bkum20\Downloads\chromedriver.exe -jar selenium-se
+rver-standalone-3.9.1.jar -role webdriver -hub http://localhost:4444/grid/regist
+er -port 5555 -browser browserName=firefox,maxInstances=2 -browser browserName=i
+explore,maxInstances=2 -browser browserName=chrome,maxInstances=3 -maxSession 9
+
+
+8860133107
